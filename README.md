@@ -3,6 +3,8 @@
 An AI-powered web application built with TensorFlow and Streamlit to classify chest X-ray images as Normal or Pneumonia.
 This project helps demonstrate how deep learning models can be applied in the medical imaging domain to assist in disease detection.
 
+
+
 🚀 Features
 
 📂 Upload chest X-ray images (JPG, JPEG, PNG)
@@ -24,6 +26,7 @@ This project helps demonstrate how deep learning models can be applied in the me
 📱 Mobile-friendly, interactive UI
 
 
+
 🛠️ Tech Stack
 
 Python 3.9+
@@ -31,6 +34,8 @@ TensorFlow / Keras – Model training & inference
 OpenCV – Image preprocessing
 Streamlit – Web application
 PIL (Pillow) – Image handling
+
+
 
 ⚙️ Installation
 
