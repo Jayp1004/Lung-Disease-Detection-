@@ -6,14 +6,23 @@ This project helps demonstrate how deep learning models can be applied in the me
 🚀 Features
 
 📂 Upload chest X-ray images (JPG, JPEG, PNG)
+
 🔎 Real-time prediction using a trained CNN/ResNet model
+
 🎨 Color-coded predictions:
+
 🟢 Green → Normal
+
 🔴 Red → Pneumonia
+
 📊 Confidence bar with percentage
+
 ⏱️ Shows inference time per prediction
+
 🔄 Compares with previous predictions
+
 📱 Mobile-friendly, interactive UI
+
 
 🛠️ Tech Stack
 
