@@ -4,6 +4,7 @@ An AI-powered web application built with TensorFlow and Streamlit to classify ch
 This project helps demonstrate how deep learning models can be applied in the medical imaging domain to assist in disease detection.
 
 🚀 Features
+
 📂 Upload chest X-ray images (JPG, JPEG, PNG)
 🔎 Real-time prediction using a trained CNN/ResNet model
 🎨 Color-coded predictions:
@@ -15,6 +16,7 @@ This project helps demonstrate how deep learning models can be applied in the me
 📱 Mobile-friendly, interactive UI
 
 🛠️ Tech Stack
+
 Python 3.9+
 TensorFlow / Keras – Model training & inference
 OpenCV – Image preprocessing
@@ -22,6 +24,7 @@ Streamlit – Web application
 PIL (Pillow) – Image handling
 
 ⚙️ Installation
+
 1.Clone the repository
 git clone https://github.com/your-username/lung-disease-detection.git
 cd lung-disease-detection
@@ -39,11 +42,13 @@ Use the Chest X-ray dataset (Kaggle link)
 Place it inside the data/chest_xray/ folder (with train, val, test subfolders).
 
 🏋️ Train Model
+
 Run the training script:
 python src/train_model.py
 The trained model will be saved inside src/models/lung_model.h5.
 
 🔮 Run the App
+
 Start the Streamlit app:
 streamlit run app.py
 Then open your browser at http://localhost:8501.
