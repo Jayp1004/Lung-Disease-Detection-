@@ -8,22 +8,22 @@ It also provides an interactive **Streamlit UI** to upload X-rays and see predic
 ## 📂 Project Structure
 
 lung_disease_detection/
-│── data/ # Dataset (Chest X-rays)
-│ ├── train/
-│ ├── val/
-│ ├── test/
+│── data/                         # Dataset (Chest X-rays/CT scans)
+│   ├── train/                    # Training images
+│   ├── val/                      # Validation images
+│   ├── test/                     # Test images
 │
-│── models/
-│ └── lung_model.h5 # Saved CNN model (after training)
+│── models/                       # Saved ML models
+│   └── lung_model.h5             # Trained CNN model
 │
-│── notebooks/
-│ └── model_training.ipynb # Jupyter notebook for experiments
+│── notebooks/                    
+│   └── model_training.ipynb      # Jupyter notebook for experiments
 │
 │── src/
-│ ├── preprocessing.py # Image preprocessing functions
-│ ├── train_model.py # Training pipeline
-│ ├── predict.py # Prediction & Grad-CAM
+│   ├── preprocessing.py          # Image preprocessing functions
+│   ├── train_model.py            # Training pipeline
+│   ├── predict.py                # Prediction & Grad-CAM
 │
-│── app.py # Streamlit frontend
-│── requirements.txt # Dependencies
-│── README.md # Documentation
+│── app.py                        # Streamlit UI
+│── requirements.txt              # Dependencies
+│── README.md                     # Project documentation
