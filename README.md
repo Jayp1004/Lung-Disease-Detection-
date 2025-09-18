@@ -1,4 +1,5 @@
-*🩺 Lung Disease Detection from Chest X-rays*
+# 🩺 **Lung Disease Detection from Chest X-rays**
+
 
 An AI-powered web application built with TensorFlow and Streamlit to classify chest X-ray images as Normal or Pneumonia.
 
