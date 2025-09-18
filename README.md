@@ -1,4 +1,4 @@
-🩺 Lung Disease Detection from Chest X-rays
+*🩺 Lung Disease Detection from Chest X-rays*
 
 An AI-powered web application built with TensorFlow and Streamlit to classify chest X-ray images as Normal or Pneumonia.
 This project helps demonstrate how deep learning models can be applied in the medical imaging domain to assist in disease detection.
