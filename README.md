@@ -1,6 +1,7 @@
 *🩺 Lung Disease Detection from Chest X-rays*
 
 An AI-powered web application built with TensorFlow and Streamlit to classify chest X-ray images as Normal or Pneumonia.
+
 This project helps demonstrate how deep learning models can be applied in the medical imaging domain to assist in disease detection.
 
 
@@ -30,9 +31,13 @@ This project helps demonstrate how deep learning models can be applied in the me
 🛠️ Tech Stack
 
 Python 3.9+
+
 TensorFlow / Keras – Model training & inference
+
 OpenCV – Image preprocessing
+
 Streamlit – Web application
+
 PIL (Pillow) – Image handling
 
 
@@ -42,12 +47,15 @@ PIL (Pillow) – Image handling
 1.Clone the repository
 
 git clone https://github.com/your-username/lung-disease-detection.git
+
 cd lung-disease-detection
 
 2.Create and activate virtual environment
 
 python3 -m venv venv
+
 source venv/bin/activate   # Mac/Linux
+
 venv\Scripts\activate      # Windows
 
 3.Install dependencies
@@ -57,21 +65,27 @@ pip install -r requirements.txt
 4.Download Dataset
 
 Use the Chest X-ray dataset (Kaggle link)
+
 Place it inside the data/chest_xray/ folder (with train, val, test subfolders).
 
 🏋️ Train Model
 
 Run the training script:
+
 python src/train_model.py
+
 The trained model will be saved inside src/models/lung_model.h5.
 
 🔮 Run the App
 
 Start the Streamlit app:
+
 streamlit run app.py
+
 Then open your browser at http://localhost:8501.
 
 ⚠️Disclaimer
 
 This project is only for education purposes.
+
 It is not for a medical diagnostic tool and should not be used as a subsitute for professional healthcare.
